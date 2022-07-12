@@ -20,20 +20,13 @@ h1 {
   padding-top: 40px;
 }
 
-.logo {
-  width: 110px;
-  height: 28px;
-  margin-top: 40px;
-  object-fit: contain;
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.container {
-  width: 400px;
-  margin: auto;
-  text-align: center;
-}
-
-#input {
+input {
   width: 219px;
   height: 37px;
   border-radius: 3.2px;
@@ -46,6 +39,19 @@ h1 {
   letter-spacing: 0.2px;
   text-align: center;
   color: #ffffff;
+}
+
+.logo {
+  width: 110px;
+  height: 28px;
+  margin-top: 40px;
+  object-fit: contain;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
 }
 
 #shorten {

@@ -19,9 +19,11 @@
         <div class="container">
 
             <h1>Enter a URL</h1>
-
             <form id="form" autocomplete="off">
+                <label for="input">Enter URL (remember scheme i.e. https://)</label>
                 <input type="text" id="input" value="">
+                <label for="key">Enter API key</label>
+                <input type="text" id="key" value="">
                 <button id="shorten">Shorten</button>
             </form>
 
@@ -34,6 +36,18 @@
     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
     <script src="main.js"></script>
     <script src="helperFunctions.js"></script>
+    <script defer>
+        alert(
+            `
+        To use this service:
+        1) Create a free account at https://www.rebrandly.com/
+        2) Create an API key.
+        3) Submit API key in form box below
+        4) Add URL you want to shorten. The entire URL including scheme (https://) must be included.
+        5) Hit the shorten button to obtain your rebrandly URL.
+        `
+        )
+    </script>
 </body>
 
 </html>
